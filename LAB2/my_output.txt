@@ -1,0 +1,48 @@
+Todo list from worker
+---------------------------
+Dunder_Mifflin_Branch_Office(1)to Scranton_Chamber_of_Commerce(7) = 2
+ 
+Scranton_Chamber_of_Commerce(7)to White_Pages(20) = 5
+ 
+White_Pages(20)to Pizza_by_Alfredo(9) = 2
+ 
+Pizza_by_Alfredo(9)to Dunder_Mifflin_Branch_Office(1) = 7
+ 
+TOTAL DISTANCE:16
+ 
+Create inital Path with nearest neighbor
+---------------------------
+Dunder_Mifflin_Branch_Office(1)to Scranton_Chamber_of_Commerce(7) = 2
+ 
+Scranton_Chamber_of_Commerce(7)to White_Pages(20) = 5
+ 
+White_Pages(20)to Pizza_by_Alfredo(9) = 2
+ 
+Pizza_by_Alfredo(9)to Dunder_Mifflin_Branch_Office(1) = 7
+ 
+TOTAL DISTANCE:16
+ 
+Greedy algorithm with random swapping
+---------------------------
+Dunder_Mifflin_Branch_Office(1)to Scranton_Chamber_of_Commerce(7) = 2
+ 
+Scranton_Chamber_of_Commerce(7)to Pizza_by_Alfredo(9) = 5
+ 
+Pizza_by_Alfredo(9)to White_Pages(20) = 2
+ 
+White_Pages(20)to Dunder_Mifflin_Branch_Office(1) = 7
+ 
+TOTAL DISTANCE:16
+ 
+Simulated annealing (SA) algorithm with random swapping
+---------------------------
+Dunder_Mifflin_Branch_Office(1)to Scranton_Chamber_of_Commerce(7) = 2
+ 
+Scranton_Chamber_of_Commerce(7)to White_Pages(20) = 5
+ 
+White_Pages(20)to Pizza_by_Alfredo(9) = 2
+ 
+Pizza_by_Alfredo(9)to Dunder_Mifflin_Branch_Office(1) = 7
+ 
+TOTAL DISTANCE:16
+ 

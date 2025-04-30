@@ -1,0 +1,23 @@
+The volume of your room [cubic meters]:                                                       141.86
+The total viral loss rate [per hour]:                                                           3.92
+The number of people susceptible in the room:                                                     34
+The square-ft area per person [ft^2/person]:                                                  14.286
+The persons per square meter [person/m^2]:                                                   0.75249
+The cubic meter volume per person is [m^3/person]:                                            4.0532
+The ventilation rate per person in the room [L/s/person]:                                     3.3777
+The quanta exhalation rate from infected people [quanta/hr]:                                    12.5
+The average viral quanta concentration in the room [quanta/L]:                              0.015859
+The average quanta inhaled per person in the room [quanta]:                                0.0047736
+
+== CONDITIONAL CASE ===============================================================================
+The probability of infection IF 1 infected person(s) in the room [%]:                        0.47622
+The average number of new COVID cases for conditional case:                                  0.16192
+
+== REGIONAL CASE ONE EVENT ========================================================================
+Starting number of infected people based on regional infection rates in the room:               0.35
+The probability of being infected given the regional rates [%]:                              0.16179
+The average number of infected people after a single event:                                 0.056626
+
+== REGIONAL CASE MULTIPLE EVENTS ==================================================================
+The probability of being infected after going to 30 [%]:                                      4.7415
+The number of people expected to get COVID after 30 events:                                   1.5955

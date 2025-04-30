@@ -1,0 +1,119 @@
+Todo list from worker
+-----------------------
+Dunder_Mifflin_Branch_Office(1) to Shrute_Beet_Farm(2) = 14.3
+
+Shrute_Beet_Farm(2) to Aaron_Grandy_Attorney_at_Law(12) = 14
+
+Aaron_Grandy_Attorney_at_Law(12) to Goju_Ryo_Karate_Dojo(4) = 5.3
+
+Goju_Ryo_Karate_Dojo(4) to Harper_Collins(17) = 6.8
+
+Harper_Collins(17) to Alfredos_Pizza_Cafe(6) = 4.2
+
+Alfredos_Pizza_Cafe(6) to Haymont_Tires(26) = 9.1
+
+Haymont_Tires(26) to Staples(8) = 4.3
+
+Staples(8) to Larry_Meyers_Office(13) = 5.4
+
+Larry_Meyers_Office(13) to Sheriffs_Office(10) = 3.4
+
+Sheriffs_Office(10) to Tract_Industries(24) = 4.7
+
+Tract_Industries(24) to Serenity_by_Jan(22) = 4.1
+
+Serenity_by_Jan(22) to Prestige_Postal_Company(18) = 3.8
+
+Prestige_Postal_Company(18) to Dunder_Mifflin_Branch_Office(1) = 9.6
+
+TOTAL DISTANCE = 89
+
+Create initial Path with nearest neighbor 
+--------------------------------------------
+Dunder_Mifflin_Branch_Office(1) to Tract_Industries(24) = 2.3
+
+Tract_Industries(24) to Goju_Ryo_Karate_Dojo(4) = 4.1
+
+Goju_Ryo_Karate_Dojo(4) to Alfredos_Pizza_Cafe(6) = 2.6
+
+Alfredos_Pizza_Cafe(6) to Larry_Meyers_Office(13) = 2
+
+Larry_Meyers_Office(13) to Aaron_Grandy_Attorney_at_Law(12) = 1.5
+
+Aaron_Grandy_Attorney_at_Law(12) to Harper_Collins(17) = 1.5
+
+Harper_Collins(17) to Sheriffs_Office(10) = 3.6
+
+Sheriffs_Office(10) to Staples(8) = 2.2
+
+Staples(8) to Haymont_Tires(26) = 4.3
+
+Haymont_Tires(26) to Serenity_by_Jan(22) = 11.3
+
+Serenity_by_Jan(22) to Prestige_Postal_Company(18) = 3.8
+
+Prestige_Postal_Company(18) to Shrute_Beet_Farm(2) = 4.7
+
+Shrute_Beet_Farm(2) to Dunder_Mifflin_Branch_Office(1) = 14.3
+
+TOTAL DISTANCE = 58.2
+
+Greedy algorithm with random swapping 
+---------------------------------------
+Dunder_Mifflin_Branch_Office(1) to Tract_Industries(24) = 2.3
+
+Tract_Industries(24) to Goju_Ryo_Karate_Dojo(4) = 4.1
+
+Goju_Ryo_Karate_Dojo(4) to Alfredos_Pizza_Cafe(6) = 2.6
+
+Alfredos_Pizza_Cafe(6) to Larry_Meyers_Office(13) = 2
+
+Larry_Meyers_Office(13) to Aaron_Grandy_Attorney_at_Law(12) = 1.5
+
+Aaron_Grandy_Attorney_at_Law(12) to Harper_Collins(17) = 1.5
+
+Harper_Collins(17) to Sheriffs_Office(10) = 3.6
+
+Sheriffs_Office(10) to Staples(8) = 2.2
+
+Staples(8) to Haymont_Tires(26) = 4.3
+
+Haymont_Tires(26) to Prestige_Postal_Company(18) = 14.5
+
+Prestige_Postal_Company(18) to Shrute_Beet_Farm(2) = 4.7
+
+Shrute_Beet_Farm(2) to Serenity_by_Jan(22) = 7.9
+
+Serenity_by_Jan(22) to Dunder_Mifflin_Branch_Office(1) = 6.4
+
+TOTAL DISTANCE = 57.6
+
+Simulated annealing (SA) algorithm with random swapping
+----------------------------------------------------------
+Dunder_Mifflin_Branch_Office(1) to Haymont_Tires(26) = 4.9
+
+Haymont_Tires(26) to Staples(8) = 4.3
+
+Staples(8) to Sheriffs_Office(10) = 2.2
+
+Sheriffs_Office(10) to Harper_Collins(17) = 3.6
+
+Harper_Collins(17) to Aaron_Grandy_Attorney_at_Law(12) = 1.5
+
+Aaron_Grandy_Attorney_at_Law(12) to Larry_Meyers_Office(13) = 1.5
+
+Larry_Meyers_Office(13) to Alfredos_Pizza_Cafe(6) = 2
+
+Alfredos_Pizza_Cafe(6) to Goju_Ryo_Karate_Dojo(4) = 2.6
+
+Goju_Ryo_Karate_Dojo(4) to Prestige_Postal_Company(18) = 4
+
+Prestige_Postal_Company(18) to Shrute_Beet_Farm(2) = 4.7
+
+Shrute_Beet_Farm(2) to Serenity_by_Jan(22) = 7.9
+
+Serenity_by_Jan(22) to Tract_Industries(24) = 4.1
+
+Tract_Industries(24) to Dunder_Mifflin_Branch_Office(1) = 2.3
+
+TOTAL DISTANCE = 45.6
